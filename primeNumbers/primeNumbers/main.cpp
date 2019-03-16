@@ -13,13 +13,15 @@ using namespace std;
 
 int main()
 {
-    int low, high, i, flag;             
+    int low, high, i, flag;             // create needed
     
-    cout << "Enter two numbers(intervals): ";
-    cin >> low >> high;
+    cout << "Enter two numbers(intervals): ";  //prompt the users
+    cin >> low >> high;                         // store input
     
+    // print output string to user
     cout << "Prime numbers between " << low << " and " << high << " are: ";
     
+    //
     while (low < high)
     {
         flag = 0;
